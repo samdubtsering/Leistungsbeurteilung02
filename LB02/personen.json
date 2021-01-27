@@ -1,0 +1,20 @@
+{
+    "Personen": [
+      {
+        "name":"Meier",
+        "vorname":"Mario",
+        "alter":"12"
+      },
+      {
+        "name":"Langmeier",
+        "vorname":"Zoe",
+        "alter":"15"
+      },
+      {
+        "name":"Tea",
+        "vorname":"Raymond",
+        "alter":"18"
+      }
+  
+      ]
+  }

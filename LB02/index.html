@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <title>LB02</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" type="images/png" sizes="32x32" href="bilder/webicon.png">
+    <script src="script.js"></script>
+</head>
+
+
+
+<body onload="init()"> 
+    <h1 id="title">Leistungsbeurteilung 02</h1>
+
+    <h1 id="title2">Yanic Meier und Samdub Tsering</h1>
+    <header>
+        <a class="gohome" href="index.html">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <nav>
+            <ul>
+                <li> <a href="HZ4.html">HZ4</li>
+                <li> <a href="HZ5.html">HZ5</a></li>
+                <li> <a href="HZ6.html">HZ6</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main id="startseite">
+     <section>
+       <article>
+         <h2>HTML Forms</h2>
+
+        <form action="./index.html" method="POST">
+          <label for="fname"> Vorname:</label><br>
+          <input type="text" id="fname" name="fname"  placeholder="Vorname..."><br>
+          <label for="lname">  Nachname:</label><br>
+          <input type="text" id="lname" name="lname" placeholder="Nachname..."><br><br>
+          <label for="age">Alter:</label><br>
+          <input type="text" id="age" name="age" placeholder="Alter..."><br><br>
+          <button type="button" onclick="person_Hinzufuegen()" >Hinzufügen</button>
+
+        </form> 
+        
+        <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+      </article>
+          <article>
+        <table id="personenTabelle">
+            <tr>
+              <th>Name</th>
+              <th>Vorname</th>
+              <th>Alter</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+          </table>
+        </article>     
+
+        
+  <article>
+          <h1>Lernende</h1>
+          <button onclick="changePicture()">Ändern</button>
+          <p><img id="bilder_lernende" src="images/bild_yanic.png"></p>
+        </article>
+        </section>   
+    </main>
+
+
+    <footer>
+         <p>BZZ-Horgen</p>
+        <p>Lernende Mediamatiker</p>
+        <p>Modul 288</p>
+    </footer>
+</body>
